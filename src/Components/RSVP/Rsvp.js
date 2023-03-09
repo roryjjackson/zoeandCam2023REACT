@@ -1,17 +1,12 @@
 import React from 'react';
-import Popup from '../Popup/Popup';
-import { useState } from 'react';
 import './Rsvp.css';
 
 export default function Rsvp() {
-  const [buttonPopup, setButtonPopup] = useState(false)
 
   return (
         <div className="container m-5" >
           <div className="rsvp-container">
-            <form id="myForm" onSubmit={ e => {
-              setButtonPopup(true);
-            }} name="rsvp" method="post">
+            <form id="myForm" name="rsvp" method="post">
               <input type="hidden" name="form-name" value="rsvp" />
               <div className="mb-3">
                 <label className="form-label">
@@ -50,9 +45,6 @@ export default function Rsvp() {
                 Send
               </button>
             </form>
-            <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
-              <h2>Thanks for getting in touch, we'll get back to you as soon as possible!</h2>
-            </Popup>
           </div>
         </div>
   )
