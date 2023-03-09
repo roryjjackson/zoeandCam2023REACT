@@ -8,7 +8,7 @@ import Header from '../Header/Header';
 import Information from '../Information/Information';
 // import emailjs from 'emailjs-com';
 import Rsvp from '../RSVP/Rsvp';
-import Xtra from '../x/x';
+// import Xtra from '../x/x';
 
 class App extends React.Component {
   constructor(props) {
@@ -136,7 +136,7 @@ class App extends React.Component {
           <p>25/11/23 | Remember the date x</p>
         </div>
 
-        <Xtra/>
+        {/* <Xtra/> */}
 
 
       </div>
