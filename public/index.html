@@ -35,6 +35,14 @@
     <title>Jamming</title>
   </head>
   <body>
+
+    <form name="rsvp" netlify netlify-honeypot="bot-field" hidden >
+      <input type="text" name="attendee_name" required />
+      <input type="radio" name="attendance" value="YES" required></input>
+      <input type="radio" name="attendance" value="NO"></input>
+      <textarea id="message" name="diet" ></textarea>
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

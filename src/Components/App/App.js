@@ -6,9 +6,7 @@ import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
-// import emailjs from 'emailjs-com';
 import Rsvp from '../RSVP/Rsvp';
-// import Xtra from '../x/x';
 
 class App extends React.Component {
   constructor(props) {
