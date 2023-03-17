@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import SearchBar from '../SearchBar/SearchBar';
-import SearchResults from '../SearchResults/SearchResults';
-import PlayList from '../PlayList/PlayList';
+// import SearchBar from '../SearchBar/SearchBar';
+// import SearchResults from '../SearchResults/SearchResults';
+// import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
 import Rsvp from '../RSVP/Rsvp';
-import Donate from '../Donate/Donate';
+// import Donate from '../Donate/Donate';
 
 class App extends React.Component {
   constructor(props) {
