@@ -8,11 +8,11 @@ class Header extends React.Component {
         <div className="header-navbar">
           {/* <a href="#Gallery"><h2>Gallery</h2></a> */}
           {/* <a href="#RSVP"><h2>RSVP</h2></a> */}
-          <a href="#Travel"><h2>Travel</h2></a>
-          <a href="#things-to-note"><h2>Information</h2></a>
-          <a href="#rsvp"><h2>RSVP</h2></a>
-          <a href="#committee"><h2>Committee</h2></a>
-          <a href="#adventure-fund"><h2>Adventure Fund</h2></a>
+          <a href="#Travel" className="header-item"><h2>Travel</h2></a>
+          <a href="#things-to-note" className="header-item"><h2>Information</h2></a>
+          <a href="#rsvp" className="header-item"><h2>RSVP</h2></a>
+          <a href="#committee" className="header-item"><h2>Committee</h2></a>
+          <a href="#adventure-fund" className="header-item"><h2>Adventure Fund</h2></a>
           {/* <a href="#Music"><h2>Music</h2></a> */}
         </div>
         <div className="header-content">
