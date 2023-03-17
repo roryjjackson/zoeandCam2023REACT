@@ -88,13 +88,13 @@ class App extends React.Component {
           </div>
         </div> */}
         <div className="divider">
-          <h2>The plan on the day</h2>
+          <h2>The details</h2>
         </div>
 
         <div className="section">
           <div className="schedule-container">
             <div className="schedule block-right">
-              <h3>Schedule</h3>
+              <h3>Order of the day</h3>
               <div className="schedule-list">
                 <div className="schedule-event">
                   <p>1:30pm | Arrival of guests 👋🏼</p>

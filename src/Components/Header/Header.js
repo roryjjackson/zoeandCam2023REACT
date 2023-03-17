@@ -17,7 +17,7 @@ class Header extends React.Component {
         </div>
         <div className="header-content">
             <h1>The Jackson - Addletons</h1>
-            <p>Suit up, boot up, and get ready for a Scottish throwdown on the</p>
+            <p>Suit up, boot up, and get ready for a Scottish throwdown with a twist!</p>
             <h2 id="date">25th November 2023</h2>
           {/* <div className="header-top">
             <p>Welcome! We may already be legally wed, but that doesn't mean we're missing the opportunity to celebrate with our nearest and dearest!</p>

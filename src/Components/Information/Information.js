@@ -51,6 +51,8 @@ export default function Information() {
             <p>We have reserved a number of rooms at Travelodge Broxden (10 mins from our venue). To book this, just fill in the form by clicking the button below.</p>
             <button onClick={ e => {handleClick(); setButtonPopup(true)}} className="button">Book Travelodge</button>
             <br/>
+            <p>The venue has a list of local suggestions, but you should also be able to find plenty of options via booking.com or a good old fashioned Google search.</p>
+            <br/>
             <p>If you're feeling brave, the estate offers free on-site camping with use of the bathroom facilities. Please do let us know if you're interested!</p>
           </div>
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1666015814/DSC02500_wn01f3.jpg" alt="" className="block-right"></img>
@@ -77,7 +79,9 @@ export default function Information() {
             <h3>Things to note</h3>
             <p>DRESS CODE: Formal and Fancy (umbrellas strongly advised)</p>
             <p>Adult only affair</p>
+            <p>Any questions, email zoeandcam2023@gmail.com</p>
             <p>Mealtimes and toasts are on us. Party drinks are on you!</p>
+            <p>* If you prefer something a little stronger than vino, we will have a semi-subsidised bar that accepts all major debit / credit cards. No naughty hipflasks or outside beverages please - it interferes with licensing and will shut down our throwdown!</p>
           </div>
         </div>
 

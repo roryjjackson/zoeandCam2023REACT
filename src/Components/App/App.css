@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Karma&family=Montserrat:wght@400;800;900&display=swap');
 
+body {
+  background-image: url(https://res.cloudinary.com/dfipoufmj/image/upload/v1677677980/Pngtree_vector_yurt_icon_4091841_wl4fkl.png);
+  background-position: left;
+  background-size: 20px;
+  background-repeat: space repeat;
+  background-position: 60px;
+}
+
 .App {
   text-align: center;
 }
@@ -43,6 +51,7 @@ body,
 html,
 #root {
   height: 100%;
+
 }
 
 html {
@@ -78,6 +87,11 @@ h2 {
   /* opacity: .8; */
 }
 
+h3 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 
 .App {
   height: 100%;
@@ -102,6 +116,15 @@ p {
     align-items: center;
     flex-direction: column;
   }
+
+  .schedule-container {
+    margin-bottom: 72px !important;
+  }
+
+  .schedule p {
+    font-size: 1.1rem !important;
+  }
+
 }
 
 .button {
@@ -129,4 +152,32 @@ p {
 
 .footer p {
   padding: 10px;
+}
+
+
+
+.schedule-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+
+.schedule  h2 {
+  font-size: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule h5 {
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule p {
+  color: rgba(5, 5, 5, 0.676);
+  margin: 0;
+  font-size: 1.4rem;
 }
