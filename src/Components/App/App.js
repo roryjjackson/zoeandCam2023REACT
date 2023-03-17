@@ -7,6 +7,7 @@ import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
 import Rsvp from '../RSVP/Rsvp';
+import Donate from '../Donate/Donate';
 
 class App extends React.Component {
   constructor(props) {
@@ -73,7 +74,7 @@ class App extends React.Component {
         {/* <h1>Ja<span class="highlight">mmm</span>ing</h1> */}
         < Header />
         < Information />
-        <div class="App">
+        {/* <div class="App">
           < SearchBar onSearch={this.search} />
           <div class="App-playlist">
             < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/>
@@ -85,7 +86,7 @@ class App extends React.Component {
                         />
 
           </div>
-        </div>
+        </div> */}
         <div className="divider">
           <h2>The plan on the day</h2>
         </div>
