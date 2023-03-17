@@ -27,7 +27,7 @@ const Timer = () => {
 
   return (
     <div className="timer">
-      <h2>Only {days} days, {minutes} minutes, {hours} hours and {seconds} seconds to go!</h2>
+      <h2 id="countdown">Only {days} days, {minutes} minutes, {hours} hours and {seconds} seconds to go!</h2>
     </div>
   );
 };

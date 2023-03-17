@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1px) and (max-width: 1000px) {
-  .timer h2 {
-    font-size: 1rem;
+  #countdown {
+    font-size: 1.3rem;
   }
 }
