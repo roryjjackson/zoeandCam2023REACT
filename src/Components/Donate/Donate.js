@@ -2,7 +2,7 @@ import './Donate.css'
 
 export default function Donate() {
     return (
-      <div>
+      <div id="adventure-fund">
         <div className="divider">
           <h2>Help us make memories!</h2>
           <p>Your presence and support are enough, but if you would like to gift us something we have set up an adventure fund you can donate to.</p>

@@ -4,7 +4,7 @@ import './Rsvp.css';
 export default function Rsvp() {
 
   return (
-        <div className="container m-5" >
+        <div className="container m-5" id="rsvp">
           <div className="rsvp-container">
             <form id="myForm" name="rsvp" method="post">
               <input type="hidden" name="form-name" value="rsvp" />

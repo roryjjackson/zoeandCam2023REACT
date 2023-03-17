@@ -35,7 +35,7 @@ export default function Information() {
           </div>
         </div>
 
-        <div className="divider">
+        <div className="divider" id="committee">
           <h2>The wedding committee</h2>
         </div>
 
@@ -71,7 +71,7 @@ export default function Information() {
           <h2>Things to note</h2>
         </div> */}
 
-        <div className="section">
+        <div className="section" id="things-to-note">
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669048233/zoe_header_pic_q6rlbj.jpg" alt="" className="block-left"></img>
           <div className="block-content block-right">
             <h3>Things to note</h3>
