@@ -11,7 +11,7 @@ class Header extends React.Component {
           <a href="#Travel"><h2 className="header-item">Travel</h2></a>
           <a href="#things-to-note"><h2 className="header-item">Information</h2></a>
           <a href="#rsvp"><h2 className="header-item">RSVP</h2></a>
-          <a href="#committee"><h2 className="header-item">Committee</h2></a>
+          <a href="#spotify"><h2 className="header-item">Music</h2></a>
           <a href="#adventure-fund"><h2 className="header-item">Adventure Fund</h2></a>
           {/* <a href="#Music"><h2>Music</h2></a> */}
         </div>

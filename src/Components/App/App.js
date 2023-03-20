@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-// import SearchBar from '../SearchBar/SearchBar';
-// import SearchResults from '../SearchResults/SearchResults';
-// import PlayList from '../PlayList/PlayList';
+import SearchBar from '../SearchBar/SearchBar';
+import SearchResults from '../SearchResults/SearchResults';
+import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
@@ -74,7 +74,12 @@ class App extends React.Component {
         {/* <h1>Ja<span class="highlight">mmm</span>ing</h1> */}
         < Header />
         < Information />
-        {/* <div class="App">
+
+        <div className="divider" id="spotify">
+          <h2>Add a playlist to our Spotify</h2>
+        </div>
+
+        <div class="App">
           < SearchBar onSearch={this.search} />
           <div class="App-playlist">
             < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/>
@@ -86,7 +91,7 @@ class App extends React.Component {
                         />
 
           </div>
-        </div> */}
+        </div>
         <div className="divider">
           <h2>The details</h2>
         </div>
