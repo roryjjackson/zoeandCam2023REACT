@@ -80,7 +80,8 @@ export default function Information() {
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669048233/zoe_header_pic_q6rlbj.jpg" alt="" className="block-left"></img>
           <div className="block-content block-right">
             <h3 id="things-to-note-header">Things to note</h3>
-            <p>DRESS CODE: <span id="formal-and-fancy">Formal and Fancy</span> (umbrellas strongly advised)</p>
+            <p>DRESS CODE: <span id="formal-and-fancy">Formal and Fancy</span></p>
+            <p className="small-p-tag">(umbrellas strongly advised)</p>
             <p>*Adult only affair*</p>
             <p>Any questions, email zoeandcam2023@gmail.com</p>
             <p>Mealtimes and toasts are on us. Party drinks are on you!</p>
