@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import SearchBar from '../SearchBar/SearchBar';
-import SearchResults from '../SearchResults/SearchResults';
-import PlayList from '../PlayList/PlayList';
+// import SearchBar from '../SearchBar/SearchBar';
+// import SearchResults from '../SearchResults/SearchResults';
+// import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
@@ -75,26 +75,26 @@ class App extends React.Component {
         < Header />
         < Information />
 
-        <div className="divider" id="spotify">
+        {/* <div className="divider" id="spotify">
           <h2>Add a playlist to our Spotify</h2>
-        </div>
+        </div> */}
 
-        <div class="App">
-          < SearchBar onSearch={this.search} />
-          <div class="App-playlist">
-            < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/>
-            < PlayList playlistName={this.state.playlistName}
+        {/* <div class="App"> */}
+          {/* < SearchBar onSearch={this.search} /> */}
+          {/* <div class="App-playlist"> */}
+            {/* < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/> */}
+            {/* < PlayList playlistName={this.state.playlistName}
                        playlistTracks={this.state.playlistTracks}
                        onRemove={this.removeTrack}
                        onNameChange={this.updatePlaylistName}
                        onSave={this.savePlaylist}
-                        />
+                        /> */}
 
-          </div>
-        </div>
-        <div className="divider">
+          {/* </div> */}
+        {/* </div> */}
+        {/* <div className="divider">
           <h2>The details</h2>
-        </div>
+        </div> */}
 
         <div className="section">
           <div className="schedule-container">
