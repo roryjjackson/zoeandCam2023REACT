@@ -12,7 +12,7 @@ export default function Rsvp() {
                 <label className="form-label">
                   <h2>Full name</h2>
                 </label>
-                <input className="form-control" type="text" id="attendee_name" name="user_name" required />
+                <input className="form-control" type="text" id="attendee_name" name="attendee_name" required />
               </div>
 
               <br/>
