@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Karma&family=Montserrat:wght@400;800;900&display=swap');
 
-body {
-  background-image: url(https://res.cloudinary.com/dfipoufmj/image/upload/v1669116902/image-from-rawpixel-id-3485365-png_zybmqv.png);
-  background-position: left;
-  background-size: 2000px;
-  background-repeat: space repeat;
-  background-position: 250px;
-}
-
 .App {
   text-align: center;
 }
@@ -51,7 +43,6 @@ body,
 html,
 #root {
   height: 100%;
-
 }
 
 html {
@@ -60,20 +51,13 @@ html {
 
 h1 {
   padding: .77rem 0;
+  /* background-color: #010c3f; */
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
   font-size: 6.5rem;
   color: rgba(255, 255, 255, 0.924);
   font-weight: 500;
-  margin: 0 auto;
 
-}
-
-@media only screen and (min-width: 1px) and (max-width: 1000px) {
-  h1 {
-    font-size: 3rem;
-    margin: 0 auto;
-  }
 }
 
 /* h1 .highlight {
@@ -87,12 +71,6 @@ h2 {
   /* opacity: .8; */
 }
 
-h3 {
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-
 .App {
   height: 100%;
   padding: 30px;
@@ -103,7 +81,6 @@ h3 {
 
 p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
 }
 
 .App-playlist {
@@ -117,15 +94,6 @@ p {
     align-items: center;
     flex-direction: column;
   }
-
-  .schedule-container {
-    margin-bottom: 72px !important;
-  }
-
-  .schedule p {
-    font-size: 1.1rem !important;
-  }
-
 }
 
 .button {
@@ -153,32 +121,4 @@ p {
 
 .footer p {
   padding: 10px;
-}
-
-
-
-.schedule-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  height: 100%;
-}
-
-.schedule  h2 {
-  font-size: 2rem;
-  font-family: 'Cormorant Garamond', serif;
-  color: rgba(5, 5, 5, 0.876);
-}
-
-.schedule h5 {
-  font-family: 'Cormorant Garamond', serif;
-  color: rgba(5, 5, 5, 0.876);
-}
-
-.schedule p {
-  color: rgba(5, 5, 5, 0.676);
-  margin: 0;
-  font-size: 1.4rem;
 }
