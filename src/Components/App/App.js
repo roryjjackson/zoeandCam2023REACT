@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import SearchBar from '../SearchBar/SearchBar';
-import SearchResults from '../SearchResults/SearchResults';
-import PlayList from '../PlayList/PlayList';
+// import SearchBar from '../SearchBar/SearchBar';
+// import SearchResults from '../SearchResults/SearchResults';
+// import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
-// import emailjs from 'emailjs-com';
 import Rsvp from '../RSVP/Rsvp';
+// import Donate from '../Donate/Donate';
 
 class App extends React.Component {
   constructor(props) {
@@ -25,6 +25,9 @@ class App extends React.Component {
     this.savePlaylist = this.savePlaylist.bind(this);
     this.search = this.search.bind(this);
   }
+
+
+
 
   addTrack(track) {
     let tracks = this.state.playlistTracks;
@@ -71,27 +74,32 @@ class App extends React.Component {
         {/* <h1>Ja<span class="highlight">mmm</span>ing</h1> */}
         < Header />
         < Information />
-        <div class="App">
-          < SearchBar onSearch={this.search} />
-          <div class="App-playlist">
-            < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/>
-            < PlayList playlistName={this.state.playlistName}
+
+        {/* <div className="divider" id="spotify">
+          <h2>Add a playlist to our Spotify</h2>
+        </div> */}
+
+        {/* <div class="App"> */}
+          {/* < SearchBar onSearch={this.search} /> */}
+          {/* <div class="App-playlist"> */}
+            {/* < SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/> */}
+            {/* < PlayList playlistName={this.state.playlistName}
                        playlistTracks={this.state.playlistTracks}
                        onRemove={this.removeTrack}
                        onNameChange={this.updatePlaylistName}
                        onSave={this.savePlaylist}
-                        />
+                        /> */}
 
-          </div>
-        </div>
-        <div className="divider">
-          <h2>The plan on the day</h2>
-        </div>
+          {/* </div> */}
+        {/* </div> */}
+        {/* <div className="divider">
+          <h2>The details</h2>
+        </div> */}
 
         <div className="section">
           <div className="schedule-container">
             <div className="schedule block-right">
-              <h3>Schedule</h3>
+              <h3>Order of the day</h3>
               <div className="schedule-list">
                 <div className="schedule-event">
                   <p>1:30pm | Arrival of guests 👋🏼</p>
@@ -123,7 +131,7 @@ class App extends React.Component {
         </div>
 
         <div className="divider">
-          <h2>RSVP by 31st May</h2>
+          <h2>RSVP</h2>
         </div>
 
         < Rsvp />
@@ -131,6 +139,9 @@ class App extends React.Component {
         <div className="footer">
           <p>25/11/23 | Remember the date x</p>
         </div>
+
+        {/* <Xtra/> */}
+
 
       </div>
     );

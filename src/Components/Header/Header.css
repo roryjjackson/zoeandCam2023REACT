@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  max-width: 70vw;
+  max-width: 95vw;
   margin: auto;
 }
 
@@ -34,7 +34,23 @@ h2 {
 #date {
   color: white;
   text-align: center;
-  font-size: 2.5rem !important ;
+  font-size: 2.8rem  ;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.header-item {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 750px) {
+  #date {
+    font-size: 1.8rem ;
+  }
+
+  .header-item {
+    font-size: .6rem;
+    /* margin: auto 10px; */
+  }
 }
 
 .button {
