@@ -39,7 +39,7 @@ export default function Information() {
         </div>
 
         <div className="divider" id="committee">
-          <h2>The wedding committee</h2>
+          <h2>The Wedding Committee</h2>
         </div>
 
         < Committee />

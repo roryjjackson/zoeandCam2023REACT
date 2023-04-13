@@ -131,7 +131,7 @@ class App extends React.Component {
         </div>
 
         <div className="divider">
-          <h2>RSVP</h2>
+          <h2>RSVP by 31st May</h2>
         </div>
 
         < Rsvp />
