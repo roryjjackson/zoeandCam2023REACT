@@ -45,12 +45,12 @@ export default function Information() {
         < Committee />
 
         <div className="divider" id="Travel">
-          <h2>Travel and Accomodation</h2>
+          <h2>Accomodation</h2>
         </div>
 
         <div className="section">
           <div className="block-content block-left">
-            <h3>Travel</h3>
+            <h3>Where to stay</h3>
             <p>We have reserved a number of rooms at Travelodge Broxden at a discounted rate (10 mins from our venue). To book this, just fill in the form by clicking the button below.</p>
             <button onClick={ e => {handleClick(); setButtonPopup(true)}} className="button">Book Travelodge</button>
             <br/>
@@ -86,7 +86,6 @@ export default function Information() {
             <p>Any questions, email zoeandcam2023@gmail.com</p>
             <p>Mealtimes and toasts are on us. Party drinks are on you!</p>
             <br></br>
-            <p className="small-p-tag">* If you prefer something a little stronger than vino, we will have a semi-subsidised bar that accepts all major debit / credit cards.</p>
             <p className="small-p-tag">No naughty hipflasks or outside beverages please - it interferes with licensing and will shut down our throwdown!</p>
           </div>
         </div>
