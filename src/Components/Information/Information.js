@@ -9,12 +9,12 @@ import Countdown from '../Countdown/Countdown';
 import Donate from '../Donate/Donate';
 
 export default function Information() {
-  const [isVis, setIsVis] = useState(false)
+  // const [isVis, setIsVis] = useState(false)
   const [buttonPopup, setButtonPopup] = useState(false)
 
-  const handleClick = event => {
-    setIsVis(current => true)
-  }
+  // const handleClick = event => {
+  //   setIsVis(current => true)
+  // }
 
     return (
       <div>
@@ -64,11 +64,11 @@ export default function Information() {
         < Donate />
 
 
-        <div style={{display: isVis ? 'block' : 'none'}}>
+        {/* <div style={{display: isVis ? 'block' : 'none'}}>
           <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
             <ContactForm />
           </Popup>
-        </div>
+        </div> */}
 
         {/* < UncontrolledExample /> */}
 
