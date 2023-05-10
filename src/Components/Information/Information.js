@@ -1,16 +1,16 @@
 import React from 'react';
 import Committee from '../Commitee/Commitee';
 import './Information.css';
-import {useState} from 'react';
-import ContactForm from '../ContactForm/ContactForm';
-import Popup from '../Popup/Popup';
+// import {useState} from 'react';
+// import ContactForm from '../ContactForm/ContactForm';
+// import Popup from '../Popup/Popup';
 // import UncontrolledExample from '../Gallery/Gallery';
 import Countdown from '../Countdown/Countdown';
 import Donate from '../Donate/Donate';
 
 export default function Information() {
   // const [isVis, setIsVis] = useState(false)
-  const [buttonPopup, setButtonPopup] = useState(false)
+  // const [buttonPopup, setButtonPopup] = useState(false)
 
   // const handleClick = event => {
   //   setIsVis(current => true)
