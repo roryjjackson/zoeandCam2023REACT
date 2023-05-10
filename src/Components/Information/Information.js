@@ -51,8 +51,8 @@ export default function Information() {
         <div className="section">
           <div className="block-content block-left">
             <h3>Where to stay</h3>
-            <p>We have reserved a number of rooms at Travelodge Broxden at a discounted rate (10 mins from our venue). To book this, just fill in the form by clicking the button below.</p>
-            <button onClick={ e => {handleClick(); setButtonPopup(true)}} className="button">Book Travelodge</button>
+            {/* <p>We have reserved a number of rooms at Travelodge Broxden at a discounted rate (10 mins from our venue). To book this, just fill in the form by clicking the button below.</p> */}
+            {/* <button onClick={ e => {handleClick(); setButtonPopup(true)}} className="button">Book Travelodge</button> */}
             <br/>
             <p>The venue has a list of local suggestions, but you should also be able to find plenty of options via booking.com or a good old fashioned Google search.</p>
             <br/>
