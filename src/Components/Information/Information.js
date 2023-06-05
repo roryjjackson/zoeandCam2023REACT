@@ -45,16 +45,18 @@ export default function Information() {
         < Committee />
 
         <div className="divider" id="Travel">
-          <h2>Accomodation</h2>
+          <h2>Accomodation & Travel</h2>
         </div>
 
         <div className="section">
           <div className="block-content block-left">
-            <h3>Where to stay</h3>
+            {/* <h3>Where to stay & getting here</h3> */}
             {/* <p>We have reserved a number of rooms at Travelodge Broxden at a discounted rate (10 mins from our venue). To book this, just fill in the form by clicking the button below.</p> */}
             {/* <button onClick={ e => {handleClick(); setButtonPopup(true)}} className="button">Book Travelodge</button> */}
             <br/>
-            <p>The venue has a list of local suggestions, but you should also be able to find plenty of options via booking.com or a good old fashioned Google search.</p>
+            <p>Edinburgh or Glasgow are the closest airports if you're flying into Scotland, with both being just over an hour's drive from the venue. Specific directions for finding the venue are available on <a href="https://www.thebyreatinchyra.co.uk/getting-here/" target="_blank" rel="noopener noreferrer">The Byre's website</a>.</p>
+            <br/>
+            <p>There are lots of accommodation options within 10 minutes drive away. The venue has a list of local suggestions, but you should also be able to find plenty of options via booking.com or a good old fashioned Google search.</p>
             <br/>
             <p>If you're feeling brave, the estate offers free on-site camping with use of the bathroom facilities. Please do let us know if you're interested!</p>
           </div>
@@ -79,10 +81,13 @@ export default function Information() {
         <div className="section" id="things-to-note">
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669048233/zoe_header_pic_q6rlbj.jpg" alt="" className="block-left"></img>
           <div className="block-content block-right">
-            <h3 id="things-to-note-header">Things to note</h3>
-            <p>DRESS CODE: <span id="formal-and-fancy">Formal and Fancy</span></p>
+            <h3 id="things-to-note-header">Things To Note</h3>
+            <p>DRESS CODE: <span id="formal-and-fancy">Formal & Fancy</span></p>
             <p className="small-p-tag">(umbrellas strongly advised)</p>
+            <br/>
+
             <p>*Adult only affair*</p>
+            <br/>
             <p>Any questions, email zoeandcam2023@gmail.com</p>
             <p>Mealtimes and toasts are on us. Party drinks are on you!</p>
             <br></br>

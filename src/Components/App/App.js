@@ -99,7 +99,7 @@ class App extends React.Component {
         <div className="section">
           <div className="schedule-container">
             <div className="schedule block-right">
-              <h3>Order of the day</h3>
+              <h3>Order Of The Day</h3>
               <div className="schedule-list">
                 <div className="schedule-event">
                   <p>1:30pm | Arrival of guests 👋🏼</p>
