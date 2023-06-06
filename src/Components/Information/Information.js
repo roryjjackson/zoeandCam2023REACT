@@ -45,7 +45,7 @@ export default function Information() {
         < Committee />
 
         <div className="divider" id="Travel">
-          <h2>Accomodation & Travel</h2>
+          <h2>Accommodation & Travel</h2>
         </div>
 
         <div className="section">
