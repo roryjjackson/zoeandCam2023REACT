@@ -131,13 +131,13 @@ class App extends React.Component {
         </div>
 
         <div className="divider">
-          <h2>RSVP by 31st May</h2>
+          <h2>RSVP by 31st August</h2>
         </div>
 
         < Rsvp />
 
         <div className="footer">
-          <p>25/11/23 | Remember the date x</p>
+          <p>17/12/23 | Remember the date x</p>
         </div>
 
         {/* <Xtra/> */}
